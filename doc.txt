@@ -1,0 +1,16 @@
+Compress-Archive -Path .\* -DestinationPath .\main.zip -Force
+
+Compress-Archive -Path .\lambda-code\stop-ecs\main.py -DestinationPath .\lambda-code\start-ecs\main.zip -Force
+
+
+Compress-Archive -Path .\lambda-code\stop-ecs\main.py -DestinationPath .\lambda-code\stop-ecs\main.zip -Force
+
+
+Compress-Archive -Path .\lambda-code\start-rds\main.py -DestinationPath .\lambda-code\start-rds\main.zip -Force
+
+
+Compress-Archive -Path .\lambda-code\stop-rds\main.py -DestinationPath .\lambda-code\stop-rds\main.zip -Force
+
+
+ใส่ dependencis ที่ console
+huaweicloudsdk_ecs_core_py3.9
